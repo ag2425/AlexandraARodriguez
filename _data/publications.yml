@@ -1,0 +1,26 @@
+# Publications and manuscripts; type records publication status.
+- title: "Measuring the Mental Health of Content Reviewers, a Systematic Review"
+  image: /assets/images/articles/content-reviewer-trauma.jpg
+  type: Preprint
+  date: 2025-02-01
+  venue: "Citizens & Technology Lab, Cornell University"
+  role: Contributing author
+  url: https://arxiv.org/html/2502.00244v1
+  links:
+    - title: Read on arXiv
+      url: https://arxiv.org/html/2502.00244v1
+
+- title: "OpCandado: Include Diverse Voices on Encrypted Messaging Privacy"
+  image: /assets/images/articles/operation-candado.png
+  type: Manuscript in preparation
+  venue: "Citizens & Technology Lab, Cornell University"
+  role: Contributing author
+  url: https://opcandado.citizensandtech.org/about-us/
+  links:
+    - title: Project overview
+      url: https://citizensandtech.org/2024/10/operation-candado/
+
+- title: "The Trust and Safety Ecosystem in Latin America and the Caribbean"
+  type: Manuscript in preparation
+  venue: "Trust and Safety Foundation’s Global Majority Research Committee"
+  role: Contributing author

@@ -1,0 +1,25 @@
+---
+layout: default
+---
+<section class="hero-band">
+  {%- if site.portrait and site.portrait != "" -%}
+  <img class="portrait" src="{{ site.portrait | relative_url }}" alt="Portrait of {{ site.title }}">
+  {%- else -%}
+  <div class="portrait ph ph-brown"></div>
+  {%- endif -%}
+</section>
+
+<section class="wrap hero">
+  <h1 class="name">{{ site.title }}</h1>
+  <p class="role">{{ site.role }}</p>
+  <p class="tagline">{{ site.tagline }}</p>
+  <div class="buttons">
+    <a class="btn btn-solid" href="{{ site.cv_file | relative_url }}">Download CV</a>
+    <a class="btn btn-outline" href="#contact">Get in touch</a>
+  </div>
+  <div class="divider"></div>
+  {% include nav.html %}
+</section>
+
+{% include current-work.html %}
+{% include contact.html %}

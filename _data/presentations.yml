@@ -1,0 +1,56 @@
+# For sorting, month-only dates use day 01 and year-only dates use January 01.
+# date_label controls the displayed date and event status.
+- title: "Sextortion: Who You Know Online & What You Can Do About It"
+  image: /assets/images/logos/stockton-logo.png
+  image_fit: contain
+  type: Webinar
+  event: Stockton University
+  date: 2020-12-07
+  date_label: December 7, 2020
+  role: Co-developed the materials used in the webinar
+  url: https://stockton.edu/events/2020/sextortion-webinar.html
+
+- title: "Workshop for Community Building for Researchers on Generative AI-Facilitated Image-Based Abuse"
+  type: Workshop
+  event: USENIX SOUPS 2026
+  image: /assets/images/presentations/usenix-workshop-group.jpg
+  image_position: 50% 50%
+  url: https://ag2425.github.io/AIG-CSAM-NCII-Workshop/index.html
+  date: 2026-01-01
+  date_label: "2026 · Accepted"
+  home_date_label: "2026"
+  role: Primary organizer
+
+- title: "New York State Technology Policy Summit"
+  image: /assets/images/presentations/ny-policy-summit.jpg
+  type: Event
+  event: "The Citizens & Technology Lab, Cornell University"
+  date: 2025-10-01
+  date_label: October 2025
+  url: https://citizensandtech.org/2025/10/at-cat-lab-summit-on-new-york-state-tech-policy-a-call-for-listening/
+  role: Documented proceedings
+
+- title: "Forensic Social Media Data Workshop"
+  type: Workshop
+  event: "The Citizens & Technology Lab, Cornell University"
+  date: 2025-03-01
+  date_label: March 2025
+  role: Documented proceedings and contributed to participant curation
+
+- title: "The Responsible AI Network"
+  image: /assets/images/presentations/responsible-ai-network.jpeg
+  image_position: 25% 50%
+  type: "Panel / invited talk"
+  event: Cornell University
+  url: https://www.theresponsibleainetwork.com/
+  date: 2025-01-01
+  date_label: January 2025
+
+- title: "How reliably can we measure and diagnose the mental health and well-being of moderators who review content?"
+  image: /assets/images/presentations/stanford-poster.jpeg
+  image_position: 35% 45%
+  type: Presentation
+  event: Stanford University
+  date: 2024-09-01
+  date_label: September 2024
+  role: Primary presenter

@@ -1,0 +1,8 @@
+<a class="row" href="{{ include.url | relative_url }}">
+  {% include thumb.html image=include.image tint=include.tint fit=include.image_fit position=include.image_position %}
+  <span class="row-text">
+    <span class="eyebrow">{{ include.label }}{% if include.date_label %} · {{ include.date_label }}{% endif %}</span>
+    <span class="row-title">{{ include.title }}</span>
+  </span>
+  <span class="arrow" aria-hidden="true">→</span>
+</a>

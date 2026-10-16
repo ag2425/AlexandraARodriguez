@@ -1,0 +1,38 @@
+# Month-only dates use day 01 for sorting; term is the displayed date range.
+- course: "INFO 4220: Networks II: Market Design"
+  image: /assets/images/logos/cornell-seal.png
+  image_fit: fill
+  role: Teaching Assistant
+  institution: Cornell University
+  location: Ithaca, NY
+  term: Spring 2026
+  date: 2026-01-01
+  url: https://classes.cornell.edu/browse/roster/SP26/class/INFO/4220
+
+- course: "INFO 1200: Information Ethics, Law, and Policy"
+  image: /assets/images/logos/cornell-seal.png
+  image_fit: fill
+  role: Teaching Assistant
+  institution: Cornell University
+  location: Ithaca, NY
+  term: Fall 2025
+  date: 2025-08-01
+  url: https://classes.cornell.edu/browse/roster/FA25/class/INFO/1200
+
+- course: "INFO 4240: Designing Technology for Social Impact"
+  image: /assets/images/logos/cornell-seal.png
+  image_fit: fill
+  role: Teaching Assistant
+  institution: Cornell University
+  location: Ithaca, NY
+  term: Fall 2024
+  date: 2024-08-01
+  url: https://classes.cornell.edu/browse/roster/FA24/class/INFO/4240
+
+- course: "CIST 2110: Programming in Python"
+  role: Adjunct Professor
+  institution: Stockton University
+  location: Galloway, NJ
+  term: January 2022–May 2023
+  date: 2022-01-01
+  url: https://academic.catalog.stockton.edu/programs/INSY/

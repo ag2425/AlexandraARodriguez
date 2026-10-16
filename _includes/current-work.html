@@ -1,0 +1,37 @@
+{%- comment -%}
+Show one entry per nonempty category, choosing the newest dated entry.
+If a category has no dated entries, show its first entry with its status.
+{%- endcomment -%}
+{%- assign sections = 'research,publications,presentations,teaching,writing,media' | split: ',' -%}
+<section class="wrap section">
+  <h2 class="label">Recent work</h2>
+  <div class="rows">
+    {%- for section in sections -%}
+      {%- assign eligible_work = site.data[section] -%}
+      {%- if section == 'research' -%}{%- assign eligible_work = eligible_work | where: 'current', true -%}{%- endif -%}
+      {%- assign dated_work = eligible_work | where_exp: 'item', 'item.date' | sort: 'date' | reverse -%}
+      {%- assign item = dated_work | first -%}
+      {%- unless item -%}{%- assign item = eligible_work | first -%}{%- endunless -%}
+      {%- if item -%}
+        {%- assign work_url = '/' | append: section | append: '/' -%}
+        {%- assign work_label = section | capitalize -%}
+        {%- assign work_title = item.title | default: item.course -%}
+        {%- assign work_date = item.home_date_label | default: item.date_label | default: item.term -%}
+        {%- if section == 'research' -%}{%- assign work_date = 'In progress' -%}{%- endif -%}
+        {%- if section == 'publications' -%}
+          {%- if item.type == 'Preprint' -%}{%- assign work_date = 'Preprint' -%}
+          {%- else -%}{%- assign work_date = 'In progress' -%}{%- endif -%}
+        {%- endif -%}
+        {%- unless work_date -%}
+          {%- if item.date -%}
+            {%- assign work_date = item.date | date: '%B %Y' -%}
+          {%- else -%}
+            {%- assign work_date = item.status | default: item.type -%}
+          {%- endif -%}
+        {%- endunless -%}
+        {%- capture work_tint -%}{% cycle 'pink', 'green', 'brown' %}{%- endcapture -%}
+        {% include work-row.html label=work_label title=work_title url=work_url image=item.image image_fit=item.image_fit image_position=item.image_position tint=work_tint date_label=work_date %}
+      {%- endif -%}
+    {%- endfor -%}
+  </div>
+</section>

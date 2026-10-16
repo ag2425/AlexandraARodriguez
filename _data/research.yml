@@ -1,0 +1,39 @@
+# Research projects; month-only dates use day 01 for sorting.
+- title: "Bias Within Nudity Detection Algorithms: Technical and Ethical Dimensions for the Global Majority"
+  image: /assets/images/articles/nudity-detection-bias.jpeg
+  current: true
+
+- title: "Measuring Secondary Trauma Among Content Moderators"
+  image: /assets/images/articles/content-reviewer-trauma.jpg
+  current: true
+  links:
+    - title: Read the preprint
+      url: https://arxiv.org/html/2502.00244v1
+
+- title: "Social Media Forensic Project: Developing a Digital Harms Database"
+  date: 2026-09-01
+  date_label: September 2026
+  current: false
+
+- title: "OpCandado: Include Diverse Voices on Encrypted Messaging Privacy"
+  image: /assets/images/articles/operation-candado.png
+  current: true
+  links:
+    - title: About Operation Candado
+      url: https://opcandado.citizensandtech.org/about-us/
+    - title: Project overview
+      url: https://citizensandtech.org/2024/10/operation-candado/
+
+- title: "Perspectives on Children’s Online Safety in Puerto Rico"
+  image: /assets/images/articles/puerto-rico-child-safety.jpg
+  date: 2025-09-01
+  date_label: September 2025
+  current: false
+  links:
+    - title: What Puerto Rico Reveals About the Hidden Architecture of Child Safety
+      url: https://citizensandtech.org/2025/11/what-puerto-rico-reveals-about-the-hidden-architecture-of-child-safety/
+    - title: AI Digital Safety & Puerto Rican Youth
+      url: https://citizensandtech.org/2025/04/ai-digital-safety-puerto-rican-youth/
+    - title: Cornell Graduate School interview
+      url: https://gradschool.cornell.edu/announcements/exploring-digital-safety-through-cultural-connection-in-puerto-rico/
+

@@ -1,0 +1,27 @@
+# Media coverage, with original article titles and publication dates.
+- title: "Aspen Policy Academy fellow profile"
+  type: Profile
+  outlet: Aspen Policy Academy
+  date: 2026-07-01 # Month-only date; day 01 is used for sorting.
+  date_label: July 2026
+  url: https://aspenpolicyacademy.org/person/alexandra-gonzalez/
+  image: /assets/images/articles/aspen-fellow-profile.jpeg
+
+- title: "Exploring Digital Safety Through Cultural Connection in Puerto Rico"
+  type: Feature
+  outlet: Cornell Graduate School
+  date: 2025-07-25
+  date_label: July 2025
+  url: https://gradschool.cornell.edu/announcements/exploring-digital-safety-through-cultural-connection-in-puerto-rico/
+  image: /assets/images/articles/cornell-puerto-rico.jpeg
+  links:
+    - title: View the Instagram feature
+      url: https://www.instagram.com/p/DMiPZ5BAAhU/
+
+- title: "The Isla language program feature"
+  type: Feature
+  outlet: Facebook
+  date: 2025-07-08
+  date_label: July 2025
+  image: /assets/images/articles/isla-language-feature.jpg
+  url: https://www.facebook.com/photo/?fbid=1291726292962040&set=a.510157697785574

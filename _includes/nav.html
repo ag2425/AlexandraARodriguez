@@ -1,0 +1,9 @@
+<nav class="nav" aria-label="Main">
+  {%- for item in site.nav -%}
+    {%- if item.url == 'cv' -%}
+      <a href="{{ site.cv_file | relative_url }}">{{ item.title }}</a>
+    {%- else -%}
+      <a href="{{ item.url | relative_url }}"{% if page.url == item.url %} aria-current="page"{% endif %}>{{ item.title }}</a>
+    {%- endif -%}
+  {%- endfor -%}
+</nav>

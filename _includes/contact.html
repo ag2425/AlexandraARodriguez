@@ -1,0 +1,26 @@
+<section id="contact" class="wrap section">
+  <div class="contact">
+    <div class="contact-head">
+      <h2>Get in touch</h2>
+      <p>Interested in collaborating or have a question?</p>
+    </div>
+    <form action="https://formspree.io/f/{{ site.formspree_id }}" method="POST" class="form">
+      <input type="hidden" name="_subject" value="New message from your website">
+      <input type="text" name="_gotcha" class="hp" tabindex="-1" autocomplete="off" aria-hidden="true">
+      <div class="form-row">
+        <label>Name<input name="name" required autocomplete="name"></label>
+        <label>Email<input name="email" type="email" required autocomplete="email"></label>
+      </div>
+      <label>Reason for reaching out
+        <select name="reason" required>
+          <option>Research collaboration</option>
+          <option>Speaking, panel, or workshop</option>
+          <option>Press or media</option>
+          <option>Other</option>
+        </select>
+      </label>
+      <label>Message<textarea name="message" rows="5" required></textarea></label>
+      <button type="submit" class="btn btn-solid">Send message</button>
+    </form>
+  </div>
+</section>
