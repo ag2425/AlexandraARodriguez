@@ -60,7 +60,7 @@ She researched the security of Internet of Things (IoT) devices, identified key 
 
 - *November 2018–May 2019*
 
-She created interactive PowerPoint tutorials and contributed interface design suggestions for a Holocaust exhibit at [The Sara & Sam Schoffer Holocaust Resource Center](https://stockton.edu/holocaust-resource/).
+She created interactive PowerPoint tutorials and contributed interface design suggestions for an exhibit at [The Sara & Sam Schoffer Holocaust Resource Center](https://stockton.edu/holocaust-resource/).
 
 ## Research methods and skills
 

@@ -22,6 +22,7 @@
   role: Primary organizer
 
 - title: "New York State Technology Policy Summit"
+  policy: true
   image: /assets/images/presentations/ny-policy-summit.jpg
   type: Event
   event: "The Citizens & Technology Lab, Cornell University"
@@ -30,7 +31,10 @@
   url: https://citizensandtech.org/2025/10/at-cat-lab-summit-on-new-york-state-tech-policy-a-call-for-listening/
   role: Documented proceedings
 
-- title: "Forensic Social Media Data Workshop"
+- title: "Center for Digital Safety Science"
+  image: /assets/images/logos/center-digital-safety-science.png
+  image_fit: contain
+  url: https://osf.io/3ebj2/overview
   type: Workshop
   event: "The Citizens & Technology Lab, Cornell University"
   date: 2025-03-01

@@ -1,11 +1,15 @@
 # Media coverage, with original article titles and publication dates.
-- title: "Aspen Policy Academy fellow profile"
-  type: Profile
+- title: "Announcing the Summer 2026 Class of Science and Technology Policy Fellows"
+  policy: true
+  type: Feature
   outlet: Aspen Policy Academy
-  date: 2026-07-01 # Month-only date; day 01 is used for sorting.
-  date_label: July 2026
-  url: https://aspenpolicyacademy.org/person/alexandra-gonzalez/
-  image: /assets/images/articles/aspen-fellow-profile.jpeg
+  date: 2026-06-18
+  date_label: June 2026
+  url: https://aspenpolicyacademy.org/news/announcing-the-summer-2026-class-of-science-technology-policy-fellows/
+  image: /assets/images/articles/aspen-2026-fellows.jpg
+  links:
+    - title: Aspen Policy Academy fellow profile (July 2026)
+      url: https://aspenpolicyacademy.org/person/alexandra-gonzalez/
 
 - title: "Exploring Digital Safety Through Cultural Connection in Puerto Rico"
   type: Feature

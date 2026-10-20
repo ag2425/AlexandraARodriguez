@@ -4,16 +4,22 @@
   current: true
 
 - title: "Measuring Secondary Trauma Among Content Moderators"
-  image: /assets/images/articles/content-reviewer-trauma.jpg
+  image: /assets/images/articles/moderator-mental-health-figure.svg
+  image_fit: contain
   current: true
   links:
     - title: Read the preprint
       url: https://arxiv.org/html/2502.00244v1
 
-- title: "Social Media Forensic Project: Developing a Digital Harms Database"
-  date: 2026-09-01
-  date_label: September 2026
+- title: "Center for Digital Safety Science"
+  image: /assets/images/logos/center-digital-safety-science.png
+  image_fit: contain
+  date: 2025-12-01
+  date_label: December 2025
   current: false
+  links:
+    - title: View the project on OSF
+      url: https://osf.io/3ebj2/overview
 
 - title: "OpCandado: Include Diverse Voices on Encrypted Messaging Privacy"
   image: /assets/images/articles/operation-candado.png

@@ -49,6 +49,8 @@
   image: /assets/images/articles/content-reviewer-trauma.jpg
 
 - title: "CAT Lab’s Recommendations to the White House on AI Safety and Innovation"
+  policy: true
+  type: Policy recommendations
   outlet: Citizens and Technology Lab
   date: 2023-12-01
   url: https://citizensandtech.org/2023/12/citizen-and-technology-labs-submission-to-omb/

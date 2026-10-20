@@ -16,11 +16,14 @@ Keep `baseurl: ""` for the custom domain, regardless of the repository name.
 - **Contact form**: sign up at formspree.io, create a form pointing to your email, paste its ID into `formspree_id`. Your email never appears on the site.
 
 ## Adding content
+Edit `_data/navigation.yml` to change the shared menu on Home and every sub-page.
+
 Everything lives in `_data/`:
 - `research.yml`: projects, summaries, dates, and status.
 - `publications.yml`, `presentations.yml`, `teaching.yml`: add entries with a `date`.
 - `writing.yml`: blog posts and op-eds.
 - `media.yml`: interviews and features you've appeared in (tag each with a type).
+- Policy page: add `policy: true` to entries in `presentations.yml`, `media.yml`, or `writing.yml` to feature them on `/policy/`.
 - Bio text: edit `about.md`.
 
 Images are optional everywhere; without one, a soft striped placeholder shows.

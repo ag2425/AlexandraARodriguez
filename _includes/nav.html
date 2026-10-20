@@ -1,5 +1,5 @@
 <nav class="nav" aria-label="Main">
-  {%- for item in site.nav -%}
+  {%- for item in site.data.navigation.main -%}
     {%- if item.url == 'cv' -%}
       <a href="{{ site.cv_file | relative_url }}">{{ item.title }}</a>
     {%- else -%}

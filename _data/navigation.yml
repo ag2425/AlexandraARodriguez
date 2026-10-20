@@ -1,0 +1,17 @@
+main:
+  - title: About
+    url: /about/
+  - title: Research
+    url: /research/
+  - title: Publications
+    url: /publications/
+  - title: Presentations
+    url: /presentations/
+  - title: Policy
+    url: /policy/
+  - title: Writing
+    url: /writing/
+  - title: Media
+    url: /media/
+  - title: Teaching
+    url: /teaching/

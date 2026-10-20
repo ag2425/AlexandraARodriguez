@@ -21,22 +21,6 @@ social:
   - name: GitHub
     url: https://github.com/ag2425/
 
-nav:
-  - title: About
-    url: /about/
-  - title: Research
-    url: /research/
-  - title: Publications
-    url: /publications/
-  - title: Presentations
-    url: /presentations/
-  - title: Writing
-    url: /writing/
-  - title: Media
-    url: /media/
-  - title: Teaching
-    url: /teaching/
-
 # The custom domain serves this site at the root, so baseurl stays empty.
 url: "https://alexandraarodriguez.com"
 baseurl: ""
