@@ -3,7 +3,7 @@ layout: page
 title: Policy
 permalink: /policy/
 ---
-{% assign items = site.data.presentations | concat: site.data.media | concat: site.data.writing | where: 'policy', true | sort: 'date' | reverse %}
+{% assign items = site.data.presentations | concat: site.data.media | concat: site.data.writing | concat: site.data.policy | where: 'policy', true | sort: 'date' | reverse %}
 <div class="rows">
 {% for item in items %}
   <a class="row" href="{{ item.url | escape }}" target="_blank" rel="noopener">

@@ -23,7 +23,7 @@ Everything lives in `_data/`:
 - `publications.yml`, `presentations.yml`, `teaching.yml`: add entries with a `date`.
 - `writing.yml`: blog posts and op-eds.
 - `media.yml`: interviews and features you've appeared in (tag each with a type).
-- Policy page: add `policy: true` to entries in `presentations.yml`, `media.yml`, or `writing.yml` to feature them on `/policy/`.
+- Policy page: add `policy: true` to entries in `presentations.yml`, `media.yml`, or `writing.yml` to feature them on `/policy/`. Entries exclusive to Policy belong in `policy.yml` with `policy: true`.
 - Bio text: edit `about.md`.
 
 Images are optional everywhere; without one, a soft striped placeholder shows.
